@@ -14,7 +14,7 @@ def alpha():
 # This function gives the length of the segment X1X2 as described in the specification of Cheers!
 # Formula for calculating length of the segment is l = 2R(1 – cos(α/2)),
 def length():
-     radius = int(input("Enter the radius of the circle :"))
+     radius = float(input("Enter the radius of the circle :"))
      length = 2* radius *(1-math.cos(alpha()/2.0))
      print("The length of the segment X1-X2 is",length, "units")
 # This function calculates the approximate value of PI using Leibniz algorithm
